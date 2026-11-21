@@ -1,0 +1,38 @@
+{
+  "name": "@sovrack/cli",
+  "version": "3.1.0",
+  "description": "Official command-line interface for the Sovrack Deployment & Orchestration Platform",
+  "bin": {
+    "sovrack": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "sovrack",
+    "deployment",
+    "paas",
+    "docker",
+    "nixpacks",
+    "devops",
+    "self-hosted"
+  ],
+  "author": "Sovrack Team <contact@sovrack.com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sovrack/cli.git"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5"
+  }
+}
