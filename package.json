@@ -1,6 +1,6 @@
 {
   "name": "@sovrack/cli",
-  "version": "3.1.0",
+  "version": "1.0.0",
   "description": "Official command-line interface for the Sovrack Deployment & Orchestration Platform",
   "bin": {
     "sovrack": "./dist/index.js"
